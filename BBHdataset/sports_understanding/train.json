@@ -1,0 +1,17 @@
+[
+    {
+        "input": "\"Bam Adebayo scored a reverse layup in the Western Conference Finals.\"",
+        "target": "yes",
+        "rationale": "Bam Adebayo is an American basketball player. Scoring a reverse layup in the Western Conference Finals is part of the NBA Finals. So the answer is yes."
+    },
+    {
+        "input": "\"Santi Cazorla scored a touchdown.\"",
+        "target": "no",
+        "rationale": "Santi Cazorla is a soccer player. Touchdown is part of American football and rugby. So the answer is no."
+    },
+    {
+        "input": "\"DeMar DeRozan was called for the goal tend.\"",
+        "target": "yes",
+        "rationale": "DeMar DeRozan is an American basketball player. Goal tending is part of basketball. So the answer is yes."
+    }
+]
