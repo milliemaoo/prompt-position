@@ -128,7 +128,6 @@ class SST(Task):
     def doc_to_text(self, doc, pattern_id):
         prompt_templates = [
                 "Question: Is this sentence positive or negative?\nAnswer:\n{input}",
-                #"Answer:\nQuestion: Is this sentence positive or negative?\n{input}", #改一下
                 "Question: Is this sentence positive or negative?\n{input}\nAnswer:",
                 "{input}\nQuestion: Is this sentence positive or negative?\nAnswer:"
             ]
